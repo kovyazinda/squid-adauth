@@ -1,0 +1,20 @@
+# Active Directory Authentication Helper for Squid
+
+# written by Denis Kovyazin (kovyazinda@gmail.com)
+
+# Domain - domain or host to query
+domain=somedomain.com
+
+# DN of user for binding to Active Directory - do not forget to create such account
+#(minimum privileges account recommended)
+binddn=CN=bind,OU=ServiceAccounts,DC=somedomain,DC=com
+
+# Password for binding to Active Directory
+bindpw=SomeStrongPassword00000
+
+# Base DN for querying AD. Put top level if you are not sure 
+#for example DC=domain,DC=com
+basedn=OU=Location1,DC=somedomain,DC=com
+
+# User group which is allowed to access internet
+groupname=Users.Proxy
