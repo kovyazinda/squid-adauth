@@ -35,5 +35,5 @@ AD Group of users, which is allowed to use squid proxy:
 groupname=Users.Proxy
 
 Note for v.0.2:
-Multiple groups of user can be specified, use comma (,) separator
+Multiple groups of users can be specified, use comma (,) separator
 groupname=Users.Proxy,Users.ProxyAdmins
