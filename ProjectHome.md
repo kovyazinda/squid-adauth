@@ -1,0 +1,1 @@
+Authentication helper for Squid proxy, which allows to perform user authentication based on Active Directory.
